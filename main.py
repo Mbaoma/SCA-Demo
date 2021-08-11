@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return 'About'
+    return 'About Time'
 
 @app.route('/<page_name>')
 def other_page(page_name):
