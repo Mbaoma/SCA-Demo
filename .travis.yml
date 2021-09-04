@@ -11,7 +11,7 @@ script:
   - python3 -m unittest discover
 
 # safelist
-#branches:
-#  only:
-#  - master
-#  - dev
+branches:
+  only:
+  - master
+  - dev
