@@ -9,7 +9,7 @@ class BasicTestCase(unittest.TestCase):
             tester = app.test_client(self)
             response = tester.get('/about', content_type='html/text')
             self.assertEqual(response.status_code, 200)
-            self.assertEqual(response.data, b'About')
+            self.assertEqual(response.data, b'About Time')
 
     def test_other(self):
             tester = app.test_client(self)
