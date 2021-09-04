@@ -9,3 +9,9 @@ install:
 # command to run test(s)
 script:
   - python3 -m unittest discover
+
+# safelist
+branches:
+  only:
+  - master
+  - dev
